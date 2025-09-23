@@ -1,7 +1,5 @@
-import arcade
-
-arcade.open_window(600, 600, "Testfenster")
-arcade.set_background_color(arcade.color.AZURE)
-arcade.start_render()
-arcade.finish_render()
-arcade.run()
+# Example 14
+def a(my_list):
+    print("function a, list =  ", my_list)
+    my_list = [10, 20, 30]
+    print("function a, list =  ", my_list)
